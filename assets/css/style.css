@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  max-width: 500px;
+  position: relative;
+}
+.image {
+  width: 100%;
+}
+.prev-btn {
+}
+.btn-contols {
+}
+.next-btn {
+  right: 0;
+}
+.btn-controls {
+  color: dodgerblue;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.01);
+  border-radius: 0.5rem;
+  position: absolute;
+  border: none;
+  outline: none;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn-controls:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
